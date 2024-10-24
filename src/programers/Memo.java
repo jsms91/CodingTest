@@ -1,4 +1,4 @@
-package Programers;
+package programers;
 
 public class Memo {
     public static void main(String[] args) {
