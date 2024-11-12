@@ -1,6 +1,6 @@
 package programers.java.level0;
 //level0[PEEC 기출문제] 7번/버스
-public class p1 {
+public class P1 {
 
     public int solution(int seat, String[][] passengers) {
         int num_passenger = 0;

@@ -3,7 +3,7 @@ package programers.java.level1;
 import java.util.*;
 
 //2024 KAKAO WINTER INTERNSHIP > 가장 많이 받은 선물
-public class p1 {
+public class P1 {
 
     public int solution(String[] friends, String[] gifts) {
 

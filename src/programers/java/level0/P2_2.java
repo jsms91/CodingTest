@@ -1,6 +1,6 @@
 package programers.java.level0;
 //나선형 다른 풀이방식
-public class p2_2 {
+public class P2_2 {
 
     public static int[][] solution(int n) {
 

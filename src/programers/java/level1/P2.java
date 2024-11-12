@@ -1,7 +1,7 @@
 package programers.java.level1;
 
 //PCCE 기출문제 9번 - 지폐 접기
-public class p2 {
+public class P2 {
     public int solution(int[] wallet, int[] bill) {
         int answer = 0;
 

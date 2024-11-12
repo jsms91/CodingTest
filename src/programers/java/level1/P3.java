@@ -1,7 +1,7 @@
 package programers.java.level1;
 
 //PCCE 기출문제 10번 - 공원
-public class p3 {
+public class P3 {
 
     public int solution(int[] mats, String[][] park) {
 

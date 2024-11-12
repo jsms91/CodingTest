@@ -1,6 +1,6 @@
 package programers.java.level0;
 //정수를 나선형으로 배치하기(50분)
-public class p2 {
+public class P2_1 {
 
     public static int[][] solution(int n) {
 
