@@ -1,4 +1,4 @@
-package programers.java.level0;
+package Programers.Java.level0;
 //나선형 다른 풀이방식
 public class P2_2 {
 

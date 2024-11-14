@@ -1,4 +1,4 @@
-package programers.java.level1;
+package Programers.Java.level1;
 
 //PCCE 기출문제 9번 - 지폐 접기
 public class P2 {

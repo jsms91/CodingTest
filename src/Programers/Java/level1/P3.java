@@ -1,4 +1,4 @@
-package programers.java.level1;
+package Programers.Java.level1;
 
 //PCCE 기출문제 10번 - 공원
 public class P3 {

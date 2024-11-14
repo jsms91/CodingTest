@@ -1,4 +1,4 @@
-package programers.java.level1;
+package Programers.Java.level1;
 
 //(리팩토링 후)
 public class P4_2 {

@@ -1,4 +1,4 @@
-package programers.java.level0;
+package Programers.Java.level0;
 //정수를 나선형으로 배치하기(50분)
 public class P2_1 {
 

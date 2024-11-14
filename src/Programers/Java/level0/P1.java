@@ -1,4 +1,4 @@
-package programers.java.level0;
+package Programers.Java.level0;
 //level0[PEEC 기출문제] 7번/버스
 public class P1 {
 

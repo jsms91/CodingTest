@@ -1,4 +1,4 @@
-package programers.java.level1;
+package Programers.Java.level1;
 
 //PCCP 기출문제 1번 - 동영상 재생기_리팩토링 전(내가 푼 방식)
 public class P4_1 {
