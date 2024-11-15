@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 //백준 11724(실버2, 연결요소의 개수)
-public class P1 {
+public class P11724 {
 
     static boolean[] visit; //방문 배열
     static ArrayList<Integer>[] A; //인접리스트
