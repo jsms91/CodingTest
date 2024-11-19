@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-//백준 11724(실버2, 연결요소의 개수)
+//연결요소의 개수(실버2)
 public class P11724 {
 
     static boolean[] visit; //방문 배열

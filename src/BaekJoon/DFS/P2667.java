@@ -16,8 +16,8 @@ public class P2667 {
     static ArrayList<Integer> sort = new ArrayList<>(); //가구 수 리스트
     static int count = 0; //단지 수
     //상,하,좌,우
-    static final int[] X = {-1,+1,0,0};
-    static final int[] Y = {0,0,-1,+1};
+    static final int[] X = {-1,1,0,0};
+    static final int[] Y = {0,0,-1,1};
 
     public static void main(String[] args) throws IOException {
 
