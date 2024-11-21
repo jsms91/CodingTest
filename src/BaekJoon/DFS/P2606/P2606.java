@@ -1,4 +1,4 @@
-package BaekJoon.DFS;
+package BaekJoon.DFS.P2606;
 
 import java.io.*;
 import java.util.*;
