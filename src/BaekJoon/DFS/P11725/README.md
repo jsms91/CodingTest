@@ -34,19 +34,16 @@ ex)
 - Main_3에서는 DFS 탐색을 처리할 때, 스택을 사용하여 재귀 대신 반복문 방식으로 DFS 탐색을 처리하여 
   시간이 580ms로 개선 됨.
 ```
-### 문제
+`[시간제한(1초) | 메모리 제한(256 MB)]`
+
+### > 문제
 루트 없는 트리가 주어진다. 이때, 트리의 루트를 1이라고 정했을 때, 각 노드의 부모를 구하는 프로그램을 작성하시오.
 
-### 입력
+### > 입력
 첫째 줄에 노드의 개수 N (2 ≤ N ≤ 100,000)이 주어진다. 둘째 줄부터 N-1개의 줄에 트리 상에서 연결된 두 정점이 주어진다.
 
-### 출력
+### > 출력
 첫째 줄부터 N-1개의 줄에 각 노드의 부모 노드 번호를 2번 노드부터 순서대로 출력한다.
-<p style="font-size: 15px; word-spacing: 50px; margin-bottom: 5px; color:gray">
-시간제한 메모리제한 정답맞힌사람</p>
-<hr style="border: none; border-top: 0.5px solid gray; margin: 5px 0; margin-right:390px;" />
-<p style="font-size: 15px; word-spacing: 90px; margin-top: 5px; color:gray">
-1초 256MB 42.91%</p>
 
 #### 예제 입력1
 ```
@@ -58,7 +55,6 @@ ex)
 2 4
 4 7
 ```
-
 #### 예제 출력1
 ```
 4
@@ -68,7 +64,7 @@ ex)
 1
 4
 ```
-<hr style="border: none; border-top: 2px solid lavender;" />
+<hr style="border: none; border-top: 1px solid lavender;" />
 
 #### 예제 입력2
 ```
