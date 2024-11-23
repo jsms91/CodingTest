@@ -42,11 +42,9 @@ ex)
 
 ### 출력
 첫째 줄부터 N-1개의 줄에 각 노드의 부모 노드 번호를 2번 노드부터 순서대로 출력한다.
+
 <p style="font-size: 15px; word-spacing: 50px; margin-bottom: 5px; color:gray">
-시간제한 메모리제한 정답맞힌사람</p>
-<hr style="border: none; border-top: 0.5px solid gray; margin: 5px 0; margin-right:390px;" />
-<p style="font-size: 15px; word-spacing: 90px; margin-top: 5px; color:gray">
-1초 256MB 42.91%</p>
+시간제한(1초) 메모리 제한(256 MB)</p>
 
 #### 예제 입력1
 ```
