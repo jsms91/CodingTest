@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class Main1{
     private static int n; //전체 사람의 수
     private static int a1; //서로 다른 사람1
     private static int a2; //서로 다른 사람2
@@ -41,32 +41,41 @@ public class Main {
         }
 
         // DFS 호출
-        int result = DFS(a1, 0);
+        int result = DFS(a1, a2);
 
         // 결과 출력
         System.out.println(result);
 
     }
 
-    private static int DFS(int current, int count) {
-        visited[current] = true; // 방문 처리
+    private static int DFS(int start, int target) {
+        Stack<int[]> stack = new Stack<>();
+        boolean[] visited = new boolean[n + 1]; // 방문 체크 배열
+        stack.push(new int[]{start, 0}); // 시작 노드와 현재 촌수 (0부터 시작)
+        visited[start] = true; // 시작 노드 방문 처리
 
-        // 목표 사람에 도달하면 촌수 반환
-        if (current == a2) {
-            return count;
-        }
+        while (!stack.isEmpty()) {
+            int[] current = stack.pop(); // 스택에서 노드와 촌수를 꺼냄
+            int currentNode = current[0];
+            int count = current[1]; // 현재 촌수
 
-        // 연결된 사람들 탐색
-        for (int next : map.get(current)) {
-            if (!visited[next]) {
-                int result = DFS(next, count + 1);
-                if (result != -1) { // 목표를 찾았다면 결과 반환
-                    return result;
+            // 목표 사람에 도달하면 촌수 반환
+            if (currentNode == target) {
+                return count;
+            }
+
+            // 현재 사람과 연결된 사람들 탐색
+            if (map.containsKey(currentNode)) {
+                for (int next : map.get(currentNode)) {
+                    if (!visited[next]) { // 아직 방문하지 않은 사람이라면
+                        visited[next] = true; // 방문 처리
+                        stack.push(new int[]{next, count + 1}); // 스택에 새로운 노드와 촌수를 추가
+                    }
                 }
             }
         }
 
-        // 목표를 찾지 못한 경우
+        // 목표에 도달할 수 없으면 -1 반환
         return -1;
     }
 
